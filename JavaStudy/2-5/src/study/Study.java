@@ -26,11 +26,11 @@ public class Study {
         shohinList.add(SHOP_SHOHIN_01);
         shohinList.add(SHOP_SHOHIN_02);
         shohinList.add(SHOP_SHOHIN_03);
-        
+
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * [ここへ記述]
-         * shohinList配列の2番目の値をキーにして、それに対応した値へ180を格納する処理を行っている
+         * shopMapにshohinList配列の2番目の値をキーにして、それに対応した値へ180を格納する処理を行っている
          */
         HashMap<String, Integer> shopMap = new HashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
