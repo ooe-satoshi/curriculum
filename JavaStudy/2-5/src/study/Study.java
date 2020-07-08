@@ -1,7 +1,7 @@
 package study;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
 /**
@@ -29,10 +29,9 @@ public class Study {
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [ここへ記述]
-         * shopMapにshohinList配列の2番目の値をキーにして、それに対応した値へ180を格納する処理を行っている
+         * [ここへ記述] shopMapにshohinList配列の2番目の値をキーにして、それに対応した値へ180を格納する処理を行っている
          */
-        HashMap<String, Integer> shopMap = new HashMap<String, Integer>();
+        LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
         shopMap.put(shohinList.get(1), 180);
         shopMap.put(shohinList.get(2), 350);
@@ -43,5 +42,6 @@ public class Study {
         for (Entry<String, Integer> entry : shopMap.entrySet()) {
             System.out.println(entry.getKey() + "=" + entry.getValue() + "円になります！");
         }
+
     }
 }
