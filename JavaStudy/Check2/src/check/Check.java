@@ -3,8 +3,8 @@ package check;
 import constants.Constants;
 
 public class Check {
-    private final String lastName;
-    private final String firstName;
+    private  String lastName;
+    private  String firstName;
 
     public Check() {
         this.lastName = "大恵";
