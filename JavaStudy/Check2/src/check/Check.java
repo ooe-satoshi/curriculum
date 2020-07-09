@@ -3,16 +3,16 @@ package check;
 import constants.Constants;
 
 public class Check {
-    private  String lastName;
-    private  String firstName;
+    private String lastName;
+    private String firstName;
 
     public Check() {
         this.lastName = "大恵";
         this.firstName = "悟志";
     }
 
-    private void printName(String lastName, String firstName) {
-        System.out.println(lastName + " " + firstName);
+    private void printName(final String LAST_NAME, final String FIRST_NAME) {
+        System.out.println(LAST_NAME + " " + FIRST_NAME);
     }
 
     public static void main(String[] args) {
