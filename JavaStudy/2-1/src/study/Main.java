@@ -12,6 +12,7 @@ public class Main {
 
         // ① firstNameとlastNameという名前の変数を定義し、
         // firstNameには自分の名前、lastNameには自分の名字で初期化しなさい
+        String a;
         String firstName = "Satoshi";
         String lastName = "Ooe";
         // getName関数の呼び出しと出力
@@ -26,6 +27,8 @@ public class Main {
             int num = arr[i];
             isOdd(num);
         }
+
+        System.out.println(a);
     }
 
     // ② 関数を定義しなさい。
